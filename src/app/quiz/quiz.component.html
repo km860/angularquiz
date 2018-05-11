@@ -1,5 +1,5 @@
 <div class="answers">
     <p *ngFor="let answer of getAnswers()">
-        <button>{{answer}}</button>
+        <button [innerHTML]='answer'></button>
     </p>
 </div>

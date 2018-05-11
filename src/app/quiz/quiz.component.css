@@ -1,6 +1,7 @@
 .answers {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .answers button {
   margin-right: 10px;
@@ -10,12 +11,12 @@
   border-radius: 10px;
   border: none;
   font-size: 13px;
-  color: #f1fbf8;
+  color: #f1fbf8
 }
 .answers button:hover {
   background-color: #0a83e9;
 }
 .answers button:active {
   background-color: #0a83e9;
-  box-shadow: 0 2px 2px;
+  box-shadow: 0px 1px 1px 1px grey
 }

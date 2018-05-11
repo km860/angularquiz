@@ -1,4 +1,4 @@
 <div *ngFor='let quiz of quizList' class="quizContainer">
-  <p>{{ quiz.question }}</p>
+  <p [innerHTML]='quiz.question'></p>
   <app-quiz [quiz]="quiz"></app-quiz>
 </div>
