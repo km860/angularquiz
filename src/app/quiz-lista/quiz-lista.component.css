@@ -1,0 +1,12 @@
+.quizContainer {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  /*border: 1px solid grey;*/
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 8px grey;
+}
+.quizContainer p {
+  text-align: center;
+}

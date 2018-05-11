@@ -1,0 +1,4 @@
+<div *ngFor='let quiz of quizList' class="quizContainer">
+  <p>{{ quiz.question }}</p>
+  <app-quiz [quiz]="quiz"></app-quiz>
+</div>

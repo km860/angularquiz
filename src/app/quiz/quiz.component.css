@@ -1,0 +1,21 @@
+.answers {
+  display: flex;
+  justify-content: center;
+}
+.answers button {
+  margin-right: 10px;
+  min-width: 80px;
+  padding: 10px;
+  background-color: #008affe6;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  color: #f1fbf8;
+}
+.answers button:hover {
+  background-color: #0a83e9;
+}
+.answers button:active {
+  background-color: #0a83e9;
+  box-shadow: 0 2px 2px;
+}
